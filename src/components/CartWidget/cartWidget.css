@@ -1,0 +1,23 @@
+.cart-widget-container {
+  position: absolute;
+  right: 15px;
+  top: 40px;
+}
+
+.bubble-cart {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  background-color: rgb(255, 77, 77);
+  color: white;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

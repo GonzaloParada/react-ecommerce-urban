@@ -1,0 +1,35 @@
+.cart-product__container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.cart-product__img {
+  width: 100px;
+  height: 100px;
+}
+.cart-product__info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.cart-product__name {
+  font-size: 20px;
+  width: 50%;
+}
+.cart-product__remove-btn {
+  border: none;
+  width: 150px;
+  padding: 2px 5px;
+  color: white;
+  background-color: rgb(255, 77, 77);
+  font-size: 20px;
+  transition: 0.5s;
+}
+.cart-product__remove-btn:hover {
+  background-color: black;
+}

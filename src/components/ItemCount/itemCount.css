@@ -1,0 +1,41 @@
+.itemCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.itemCount-btn-box {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.itemCount-btn {
+  border: none;
+  width: 35px;
+  height: 35px;
+  color: white;
+  background-color: rgb(255, 77, 77);
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.itemCount-btn:hover {
+  background-color: black;
+}
+
+.itemCount-btnAgregar {
+  border: none;
+  width: 150px;
+  color: white;
+  background-color: rgb(255, 77, 77);
+  font-size: 20px;
+  transition: 0.5s;
+}
+.itemCount-btnAgregar:hover {
+  background-color: black;
+}

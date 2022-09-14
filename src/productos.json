@@ -1,0 +1,92 @@
+[
+  {
+    "category": "shoes",
+    "description": "They are low-cut shoes made with resistant uppers, they have re-enforced toecaps to add durability, the original Vans Wafflesole rubber outsole and padded collars to offer support and comfort.",
+    "name": "OLD SKOOL",
+    "picURL": "/images/products/shoes-vans-classic.png",
+    "price": 2000,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "shoes",
+    "description": "The new Kyle Walker sneakers are the unmistakable introductory model of footballer Kyle Walker and are made with suede and canvas uppers. Its UltraCush HD sockliner keeps the foot close to the board and offers the highest level of impact cushioning, while the revolutionary Wafflecup construction provides the support of a rubber outsole without sacrificing the grip and boardfeel of a shoe. with traditional vulcanized sole. They also have DURACAP rubber reinforcements in the areas most exposed to wear to offer unmatched durability.",
+    "name": "OLD SKOOL BLUE",
+    "picURL": "/images/products/shoes-vans-blue.png",
+    "price": 2500,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "shoes",
+    "description": "Vans updates the classic Sk8-Hi with the latest in ComfyCush comfort technology to create the Classic ComfyCush Sk8-Hi, which offers an exceptional fit like you're walking on clouds. A design that perfectly fuses comfort and grip thanks to the co-molded construction of foam and rubber, the rubber soles, which offer durability and traction, and linings in materials that absorb and wick away moisture. A newly designed upper in durable 170g canvas and suede offers tongue stabilization and arch support, while the interior has a streamlined line where comfort comes first.",
+    "name": "ComfyCush SK8-Hi",
+    "picURL": "/images/products/shoes-vans-boots.png",
+    "price": 3000,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "hoodies",
+    "description": "Rip Curl brand cotton jacket, inspired by the Californian style.",
+    "name": "Hoodie Full Patched",
+    "picURL": "/images/products/hoodies-ripcurl-black.png",
+    "price": 3000,
+    "stock": 30,
+    "brand": "rip curl"
+  },
+  {
+    "category": "hoodies",
+    "description": "Kangaroo jumpsuit with front pocket. Print in front. Vans brand tag, waistband and faucet.",
+    "name": "Hoodie ComfyCush",
+    "picURL": "/images/products/hoodies-vans-grey.png",
+    "price": 5000,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "hoodies",
+    "description": "The new season of vans, white hoodie with checkered sleeves, inspired by the classic styles of the brand with a modern twist.",
+    "name": "Hoodie color-snow",
+    "picURL": "/images/products/hoodies-vans-white.png",
+    "price": 5500,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "hoodies",
+    "description": "The new season of rip curl, cotton hoodie with white, brown and black bands. Made with the collaboration of Kelly Slater.",
+    "name": "Hoodie rip curl stripes",
+    "picURL": "/images/products/hoodies-ripcurl-yellow.png",
+    "price": 4500,
+    "stock": 30,
+    "brand": "rip curl"
+  },
+  {
+    "category": "t-shirt",
+    "description": "Vans crew neck t-shirt with ribb. Brand name on sleeve hem. VANS print in one color on the front. Color black",
+    "name": "Classic Vans T-Shirt black",
+    "picURL": "/images/products/t-shirt-vans-classic1.png",
+    "price": 2200,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "t-shirt",
+    "description": "Vans crew neck t-shirt with ribb. Brand name on sleeve hem. Full Patch print in one color on the front. Color white",
+    "name": "Full Patch print T-Shirt white",
+    "picURL": "/images/products/t-shirt-vans-classic2.png",
+    "price": 2500,
+    "stock": 30,
+    "brand": "vans"
+  },
+  {
+    "category": "t-shirt",
+    "description": "Vans crew neck t-shirt with ribb. Brand name on sleeve hem. VANS print in one color on the front. Color green",
+    "name": "Classic Vans T-Shirt green",
+    "picURL": "/images/products/t-shirt-vans-green.png",
+    "price": 2200,
+    "stock": 30,
+    "brand": "vans"
+  }
+]

@@ -1,0 +1,38 @@
+.error-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("../../../public/images/error404img.png");
+  background-size: cover;
+}
+
+.error-message {
+  font-size: 50px;
+  color: white;
+}
+
+.error-img {
+  width: 500px;
+}
+
+.btn-error {
+  font-size: 25px;
+  color: white;
+  width: 200px;
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: 0 10px;
+  cursor: pointer;
+  background-color: transparent;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.475);
+}
+
+.btn-error:hover {
+  background-color: rgb(255, 77, 77);
+  border: 2px solid rgb(255, 77, 77);
+}
