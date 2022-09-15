@@ -17,6 +17,7 @@
   background-color: rgb(255, 77, 77);
   font-size: 20px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .cart__btn:hover {
   background-color: black;
@@ -58,4 +59,13 @@
   align-items: center;
   gap: 20px;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .cart__btn-container {
+    flex-direction: column;
+  }
+  .cart__btn {
+    width: 100px;
+  }
 }

@@ -32,6 +32,7 @@
   background-color: rgb(255, 77, 77);
   font-size: 20px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .btn-go-chart:hover {
   background-color: black;
@@ -52,6 +53,7 @@
   .img-container img {
     object-fit: contain;
     width: 100%;
+    max-width: 450px;
   }
   .item-detail {
     padding-top: 20px;

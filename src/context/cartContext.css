@@ -29,7 +29,22 @@
   background-color: rgb(255, 77, 77);
   font-size: 20px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .cart-product__remove-btn:hover {
   background-color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .cart-product__img {
+    width: 80px;
+    height: 80px;
+  }
+  .cart-product__info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cart-product__remove-btn {
+    width: 100px;
+  }
 }

@@ -3,7 +3,7 @@ import { useState, useContext } from "react";
 import CartContext from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import ItemCount from "../ItemCount/ItemCount";
-//import NotificationContext from "../../notification/Notification";
+import Swal from "sweetalert2";
 function ItemDetail({ id, description, name, picURL, price, stock, brand }) {
   const [quantityToAdd, setQuantityToAdd] = useState(0);
   const { addItem, getProductQuantity } = useContext(CartContext);
@@ -18,6 +18,19 @@ function ItemDetail({ id, description, name, picURL, price, stock, brand }) {
       quantity,
       picURL,
     };
+    Swal.fire({
+      toast: true,
+      text: `Product added to cart`,
+      showConfirmButton: false,
+      position: "bottom-end",
+      timer: 1500,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener("mouseenter", Swal.stopTimer);
+        toast.addEventListener("mouseleave", Swal.resumeTimer);
+      },
+      icon: "success",
+    });
     addItem(productToAdd);
   };
 

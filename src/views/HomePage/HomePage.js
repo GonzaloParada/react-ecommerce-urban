@@ -1,11 +1,7 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./homePage.css";
 
 function HomePage() {
-  useEffect(() => {
-    console.log(process.env.REACT_APP_API_KEY);
-  }, []);
   return (
     <div className="home-container">
       <div className="hero">

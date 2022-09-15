@@ -1,5 +1,6 @@
 .loader-container {
-  padding-top: 300px;
+  padding-top: 200px;
+  padding-right: 200px;
   display: flex;
   justify-content: center;
   align-items: center;

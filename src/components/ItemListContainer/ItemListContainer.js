@@ -1,5 +1,4 @@
 import "./itemListContainer.css";
-import Footer from "../Footer/Footer";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
@@ -48,7 +47,6 @@ function ItemListContainer() {
   return (
     <div className="item-list-container">
       <ItemList products={products} />
-      <Footer />
     </div>
   );
 }
