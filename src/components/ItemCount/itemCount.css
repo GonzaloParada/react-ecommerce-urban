@@ -29,7 +29,8 @@
   background-color: black;
 }
 
-.itemCount-btnAgregar {
+.itemCount-btn-agregar {
+  margin-top: 3px;
   border: none;
   width: 150px;
   color: white;

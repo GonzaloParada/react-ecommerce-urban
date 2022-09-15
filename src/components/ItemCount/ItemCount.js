@@ -51,7 +51,7 @@ function ItemCount({ stock = 0, initial = 1, onAdd, price }) {
         onClick={() => {
           onAdd(count);
         }}
-        className="itemCount-btnAgregar"
+        className="itemCount-btn-agregar"
       >
         ADD TO CHART {price}
       </button>
