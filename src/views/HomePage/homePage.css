@@ -11,7 +11,7 @@
 
 .hero {
   color: white;
-  font-size: 150px;
+  font-size: 12vh;
   letter-spacing: 1px;
 }
 
@@ -32,4 +32,7 @@
 .hero__btn:hover {
   background-color: rgb(255, 77, 77);
   border: 2px solid rgb(255, 77, 77);
+}
+
+@media screen and (max-width: 1000px) {
 }
