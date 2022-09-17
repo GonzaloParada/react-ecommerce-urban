@@ -13,7 +13,7 @@ function Cart() {
       {products.length <= 0 ? (
         <div className="cart__empty">
           <p className="cart__text-empty">NO PRODUCTS</p>
-          <Link to="/">
+          <Link to="/allproducts">
             <button className="cart__btn">ADD PRODUCTS</button>
           </Link>
         </div>
