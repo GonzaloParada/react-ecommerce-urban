@@ -2,10 +2,10 @@
 
 This project was bootstrapped with Create React App.
 
-# Enclace
+# Link
 
 https://react-ecommerce-urban.vercel.app/
 
-# view
+# View
 
 ![VIEW](./public/images/page_view.PNG)
