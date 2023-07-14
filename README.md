@@ -1,6 +1,6 @@
 # Urban - E-Commerce
 
-This project was bootstrapped with Create React App.
+Ecommerce con React y como base de datos firebase.
 
 # Link
 
